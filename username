@@ -1,0 +1,9 @@
+def print_username(email):
+
+    split_email = email.split("@")
+    username = split_email[0]
+    print(f"Username: {username}")
+
+if __name__ == "__main__":
+    email = "username@companyname.com"
+    print_username(email)
